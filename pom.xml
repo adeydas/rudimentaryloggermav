@@ -4,7 +4,7 @@
   <groupId>ws.abhis.utdwrkshp</groupId>
   <artifactId>rudimentary-logger</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-RELEASE</version>
+  <version>1.0-SNAPSHOT</version>
   <name>rudimentary-logger</name>
   <url>http://abhis.ws:8080/nexus</url>
   <dependencies>
