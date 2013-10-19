@@ -29,6 +29,23 @@
 		</plugin>
 	  </plugins>
 	</build>
-	
+ 
+ <distributionManagement>
+    <repository>
+      <id>abhisws-repository</id>
+      <name>Abhisws Repository</name>
+      <url>http://abhis.ws:8080/nexus/content/repositories/utd_wrkshp/</url>
+    </repository>
+  </distributionManagement>
+  
+   <servers>
+    <server>
+      <id>abhisws-repository</id>
+      <username>deployment</username>
+      <!-- Default value is ~/.ssh/id_dsa -->
+      
+      <passphrase>deploy2013</passphrase>
+    </server>
+  </servers>
 	
 </project>
